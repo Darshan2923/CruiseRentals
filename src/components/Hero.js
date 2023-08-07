@@ -73,3 +73,43 @@ const Hero = () => {
 };
 
 export default Hero;
+
+
+/*
+const Hero = () => {
+    const [goUp, setGoUp] = useState(false);
+    // ...
+This section defines a functional component named Hero. Functional components are building blocks in modern web development used to create reusable and manageable UI elements. The component uses the useState hook to create a state variable goUp and a function setGoUp to update it. This state will control whether the "scroll to top" button should be displayed or not.
+
+let scrollToTop = () => {
+    window.scrollTo({ top: (0, 0), behavior: 'smooth' });
+}
+Here, a function scrollToTop is defined. It uses the window.scrollTo method to smoothly scroll to the top of the page when called.
+
+
+
+let bookBtn = () => {
+    document.querySelector('#book').scrollIntoView({ behavior: "smooth" });
+};
+Another function bookBtn is defined. It finds an element with the ID "book" and smoothly scrolls the page to make that element visible.
+
+useEffect(() => {
+    const onPageScroll = () => {
+        if (window.scrollY > 600) {
+            setGoUp(true);
+        } else {
+            setGoUp(false);
+        }
+    };
+    window.addEventListener('scroll', onPageScroll);
+    return () => {
+        window.removeEventListener("scroll", onPageScroll)
+    };
+}, []);
+The useEffect hook is used here to add an event listener to the scroll event of the window. When the user scrolls, the onPageScroll function is called. If the vertical scroll position (scrollY) is greater than 600 pixels, it sets goUp to true, indicating that the "scroll to top" button should be shown. Otherwise, it sets goUp to false. The useEffect hook also returns a cleanup function to remove the event listener when the component unmounts.
+
+The rest of the code is JSX, which defines the structure and content of the component's UI. It creates a section with a hero image, text content, and buttons. The "scroll to top" button is conditionally displayed based on the goUp state.
+
+This component seems to be a part of a web page that might be related to car rentals or travel. It encourages users to book a ride and provides a "scroll to top" button for convenience.
+
+*/
