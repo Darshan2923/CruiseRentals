@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/Footer.css'
 
 const Footer = () => {
     return (
@@ -11,10 +12,19 @@ const Footer = () => {
                             <li>Explore Our Diverse Fleet: Find the Ideal Vehicle for Your Driving Requirements.</li>
                             <li><a href="tel:987654321">
                                 <i className="fa-solid fa-phone"></i>&nbsp; (+91) 98765 43210</a></li>
+                            <li>
+                                <a
+                                    href="mailto: 
+                cruiserental@gmail.com"
+                                >
+                                    <i className="fa-solid fa-envelope"></i>
+                                    &nbsp; cruiserental@gmail.com
+                                </a>
+                            </li>
                             <li><a href="https://xspeedstudio.com/" target='__blank' style={{ fontSize: "14px" }} rel='noreferrer'>Design by XspeedStudio</a></li>
                         </ul>
                         <ul className="footer-content__2">
-                            <li>Comapny</li>
+                            <li>Company</li>
                             <li><a href="#home">Mumbai</a></li>
                             <li><a href="#home">Careers</a></li>
                             <li><a href="#home">Mobile</a></li>
