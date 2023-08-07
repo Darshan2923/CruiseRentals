@@ -1,3 +1,9 @@
+.hero-section {
+    width: 100%;
+    height: 97vh;
+    position: relative;
+}
+
 .hero-content {
     align-items: center;
     display: flex;
@@ -19,7 +25,9 @@
     flex-direction: column;
     z-index: 3;
     max-width: 50rem;
-    margin-top: 5rem;
+    margin-top: 0rem;
+    left: 8rem;
+    position: relative;
 }
 
 .hero-content__text h4 {
@@ -30,12 +38,13 @@
 
 .hero-content__text h1 {
     font-size: 3rem;
-    font-family: Rubik;
-    font-weight: 700;
+    font-family: Poppins;
+    font-weight: 900;
     color: black;
     line-height: 1.2;
-    margin-top: 1rem;
-    margin-bottom: 2.3rem;
+    margin-top: 0rem;
+    margin-bottom: 0.2rem;
+    max-width: 500px;
 }
 
 .hero-content__text h1 span {
@@ -45,15 +54,17 @@
 .hero-content__text p {
     font-size: 1em;
     font-family: Rubik;
+    font-weight: 100;
     line-height: 1.6;
+    max-width: 550px;
     color: gray;
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
 }
 
 .hero-content__text__btns {
     display: flex;
-    gap: 2rem;
-    font-size: 1.1rem;
+    gap: 1.5rem;
+    font-size: 0.9rem;
     font-family: Rubik;
 }
 
@@ -65,7 +76,7 @@
 
 .hero-content__text__btns__book-ride {
     background-color: #4169e1;
-    padding: 1.8rem 3rem;
+    padding: 1.8rem 1.5rem;
     border-radius: 0.3rem;
     box-shadow: 0 10px 15px 0 rgba(89, 48, 255, 0.35);
     transition: all 0.3s;
@@ -79,7 +90,7 @@
 
 .hero-content__text__btns__learn-more {
     background-color: black;
-    padding: 1.8rem 3rem;
+    padding: 1.8rem 1.5rem;
     border-radius: 0.3rem;
     border: 2px solid black;
     transition: all 0.3s;
@@ -93,19 +104,19 @@
 .hero-content__car-img {
     z-index: 2;
     position: absolute;
-    right: 0;
+    right: 7rem;
     width: 55%;
     margin-top: 5rem;
 }
 
 .scroll-up {
     position: fixed;
-    font-size: 2.5rem;
+    font-size: 1rem;
     color: white;
     background-color: #4169e1;
     border: 3px solid white;
-    width: 2rem;
-    height: 2rem;
+    width: 1rem;
+    height: 1rem;
     bottom: 5rem;
     right: 5rem;
     z-index: 20;
@@ -113,7 +124,7 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 1rem;
     cursor: pointer;
 }
 
@@ -154,4 +165,19 @@
         display: none;
     }
 
+    .scroll-up {
+        bottom: 2rem;
+        right: 2rem;
+    }
+
+}
+
+@media(max-width:1200px) {
+    .hero-content__car-img {
+        right: 0;
+    }
+
+    .hero-content__text {
+        left: 0;
+    }
 }
