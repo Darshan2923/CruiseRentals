@@ -9,10 +9,10 @@ const Footer = () => {
                     <div className="footer-content">
                         <ul className="footer-content__1">
                             <li><span>Cruise</span>Rental</li>
-                            <li>Explore Our Diverse Fleet: Find the Ideal Vehicle for Your Driving Requirements.</li>
-                            <li><a href="tel:987654321">
+                            <li className='footer-content__1__para'>Explore Our Diverse Fleet: Find the Ideal Vehicle for Your Driving Requirements.</li>
+                            <li className='footer-content__1__tel' ><a href="tel:987654321">
                                 <i className="fa-solid fa-phone"></i>&nbsp; (+91) 98765 43210</a></li>
-                            <li>
+                            <li className='footer-content__1__email'>
                                 <a
                                     href="mailto: 
                 cruiserental@gmail.com"
@@ -21,7 +21,7 @@ const Footer = () => {
                                     &nbsp; cruiserental@gmail.com
                                 </a>
                             </li>
-                            <li><a href="https://xspeedstudio.com/" target='__blank' style={{ fontSize: "14px" }} rel='noreferrer'>Design by XspeedStudio</a></li>
+                            <li className='footer-content__1__site'><a href="https://xspeedstudio.com/" target='__blank' style={{ fontSize: "14px" }} rel='noreferrer'>Design by XspeedStudio</a></li>
                         </ul>
                         <ul className="footer-content__2">
                             <li>Company</li>
