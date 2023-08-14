@@ -1,8 +1,13 @@
 import React from 'react'
+import HeroPages from '../components/HeroPages'
 
 const TestimonialsPage = () => {
     return (
-        <div>TestimonialsPage</div>
+        <div>
+            <section className="testimonials-section">
+                <HeroPages name="Testimonials" />
+            </section>
+        </div>
     )
 }
 

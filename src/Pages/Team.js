@@ -7,6 +7,7 @@ import Person3 from '../assets/team_members/emily_thomson.png'
 import Person4 from '../assets/team_members/jim_kosovo.png'
 import Person5 from '../assets/team_members/4.png'
 import Person6 from '../assets/team_members/suniel_yadav.png'
+import HeroPages from '../components/HeroPages'
 
 
 const Team = () => {
@@ -21,7 +22,7 @@ const Team = () => {
     return (
         <>
             <section className="team-page">
-                {/* <HeroPages name="Our Team" /> */}
+                <HeroPages name="Our Team" />
                 <div className="container">
                     <div className="team-container">
                         {teamPal.map((ppl, id) => (

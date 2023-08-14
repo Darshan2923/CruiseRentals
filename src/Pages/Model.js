@@ -1,8 +1,11 @@
 import React from 'react'
+import HeroPages from '../components/HeroPages'
 
 const Models = () => {
     return (
-        <div>Models</div>
+        <div>
+            <HeroPages name="Models" />
+        </div>
     )
 }
 
