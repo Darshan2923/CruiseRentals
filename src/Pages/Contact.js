@@ -1,8 +1,14 @@
 import React from 'react'
+import HeroPages from '../components/HeroPages'
+
 
 const Contact = () => {
     return (
-        <div>Contact</div>
+        <div>
+            <section className="contact-section">
+                <HeroPages name="Contact" />
+            </section>
+        </div>
     )
 }
 
