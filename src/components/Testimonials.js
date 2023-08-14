@@ -1,4 +1,7 @@
 import React from 'react'
+import Img1 from '../assets/testimonials/sierre_leone.jpg'
+import Img2 from '../assets/testimonials/rakhi_madanna.jpg'
+import '../styles/Testimonials.css'
 
 const Testimonials = () => {
     return (
@@ -7,7 +10,7 @@ const Testimonials = () => {
                 <div className="container">
                     <div className="testimonials-content">
                         <div className="testimonials-content__title">
-                            <h4>Reviewed by Indiviaduals</h4>
+                            <h4>Reviewed by Individuals</h4>
                             <h2>Client's Testimonials</h2>
                             <p>
                                 Explore the transformative influence we've had on our clients by delving into their heartfelt testimonials. Our clients have first-hand encounters with our services and outcomes, and they're enthusiastic about sharing their uplifting journeys with you.
@@ -23,10 +26,10 @@ const Testimonials = () => {
                                 </p>
                                 <div className="all-testimonials__box__name">
                                     <div className="all-testimonials__box__name__profile">
-                                        <img src="" alt="user_img" />
+                                        <img src={Img1} alt="user_img" />
                                         <span>
-                                            <h4>Kelmon Shan</h4>
-                                            <p>Mumbai</p>
+                                            <h4>Sierre Leone</h4>
+                                            <p>Goa</p>
                                         </span>
                                     </div>
                                 </div>
@@ -40,10 +43,10 @@ const Testimonials = () => {
                                 </p>
                                 <div className="all-testimonials__box__name">
                                     <div className="all-testimonials__box__name__profile">
-                                        <img src="" alt="user_img" />
+                                        <img src={Img2} alt="user_img" />
                                         <span>
-                                            <h4>Ron Rizzly</h4>
-                                            <p>Novi Sad</p>
+                                            <h4>Rashi Mandanna</h4>
+                                            <p>Mumbai</p>
                                         </span>
                                     </div>
                                 </div>
