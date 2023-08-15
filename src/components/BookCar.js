@@ -2,7 +2,11 @@ import React from 'react'
 
 const BookCar = () => {
     return (
-        <div>BookCar</div>
+        <>
+            <section id='book'>
+                BookCar
+            </section>
+        </>
     )
 }
 
