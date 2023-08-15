@@ -51,6 +51,7 @@ const Team = () => {
                         </div>
                     </div>
                 </div>
+                <Footer />
             </section>
         </>
     )
