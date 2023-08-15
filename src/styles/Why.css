@@ -1,0 +1,8 @@
+.choose-section {
+    background-color: white;
+    padding: 2rem 0 10rem 0;
+    background-image: url('/src/assets/WhyUs/bg.png');
+    background-position: -255px 255px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

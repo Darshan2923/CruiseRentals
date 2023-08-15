@@ -3,6 +3,7 @@ import MainImg from '../assets/WhyUs/group_cars_main.png'
 import Box1 from '../assets/WhyUs/icon_1.jpg'
 import Box2 from '../assets/WhyUs/icon_2.jpg'
 import Box3 from '../assets/WhyUs/icon_3.jpg'
+import '../styles/Why.css'
 
 
 const Why = () => {
