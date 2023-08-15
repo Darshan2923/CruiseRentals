@@ -1,0 +1,78 @@
+.plan-section {
+    background-color: white;
+    padding: 5.3rem 0;
+    font-family: Rubik;
+}
+
+.plan-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-container__title {
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+}
+
+.plan-container__title h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.plan-container__title h2 {
+    font-family: Poppins, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 900;
+    margin: 1rem 0.3rem;
+}
+
+.plan-container__boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: auto; */
+    margin-top: 3.7rem;
+    padding: 0 3rem;
+}
+
+@media (max-width: 1021px) {
+    .plan-container__boxes {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 1rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .plan-container__boxes {
+        grid-template-columns: 1fr;
+        margin-top: 1rem;
+    }
+}
+
+.plan-container__boxes__box {
+    text-align: center;
+    padding: 1rem 6rem;
+}
+
+@media (max-width: 500px) {
+    .plan-container__boxes__box {
+        padding: 1rem 1rem;
+    }
+}
+
+.plan-container__boxes__box img {
+    width: 10rem;
+    height: auto;
+}
+
+.plan-container__boxes__box h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.plan-container__boxes__box p {
+    font-size: 16px;
+    font-family: Rubik;
+    color: gray;
+    line-height: 1.43;
+}

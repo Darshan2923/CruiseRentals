@@ -2,6 +2,7 @@ import React from 'react'
 import Icon1 from '../assets/planTrip/icon_1.jpg'
 import Icon2 from '../assets/planTrip/icon_2.jpg'
 import Icon3 from '../assets/planTrip/icon_3.jpg'
+import '../styles/PlanTrip.css'
 
 const PlanTrip = () => {
     return (
