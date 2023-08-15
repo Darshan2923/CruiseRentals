@@ -5,4 +5,129 @@
     background-position: -255px 255px;
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: Poppins;
+}
+
+.choose-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.choose-container__img {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+@media(max-width:550px) {
+    .choose-container__img {
+        width: 100%;
+    }
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: start;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.text-container__left {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    color: black;
+}
+
+@media (max-width: 1000px) {
+    .text-container__left {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.text-container__left h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-family: Rubik;
+}
+
+.text-container__left h2 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.text-container__left p {
+    font-size: 16px;
+    font-family: Rubik;
+    line-height: 1.5;
+    color: gray;
+    margin-bottom: 2.5rem;
+}
+
+.text-container__left a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-color: #4169e1;
+    padding: 0.8rem 1.7rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 10px 15px 0 rgba(89, 48, 255, 0.35);
+    transition: all 0.3s;
+    border: 2px solid #4169e1;
+    font-size: 16px;
+    width: fit-content;
+    transition: all 0.3s;
+}
+
+.text-container__left a:hover {
+    box-shadow: 0 10px 15px 0 #c3d1fc;
+    background-color: #3553ac;
+}
+
+.text-container__right {
+    display: flex;
+    flex-direction: column;
+    max-width: 24rem;
+}
+
+
+.text-container__right__box {
+    display: flex;
+}
+
+@media (max-width: 550px) {
+    .text-container__right__box {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.text-container__right__box img {
+    width: 7rem;
+    height: 7rem;
+    margin-right: 1.1rem;
+}
+
+.text-container__right__box__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-container__right__box__text h4 {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+.text-container__right__box__text p {
+    font-size: 16px;
+    color: gray;
+    font-family: Poppins;
+    line-height: 1.3;
 }

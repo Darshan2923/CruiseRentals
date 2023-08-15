@@ -24,7 +24,7 @@ const Why = () => {
                                     <i className="fa-solid fa-angle-right"></i></a>
                             </div>
                             <div className="text-container__right">
-                                <div className="text-container__right-box">
+                                <div className="text-container__right__box">
                                     <img src={Box1} alt="car-img" />
                                     <div className="text-container__right__box__text">
                                         <h4>
