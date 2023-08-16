@@ -3,14 +3,15 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 12rem;
-    margin: 0 auto;
+    margin: 0 auto !important;
     color: black;
     padding: 6rem 1rem;
     background-image: url("/src/assets/banners/bg-contact.png");
     background-size: auto;
     background-position: center center;
     background-repeat: no-repeat;
-    font-family: Rubik;
+    font-family: Poppins;
+    font-weight: bolder;
 }
 
 @media(max-width:950px) {

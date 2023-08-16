@@ -1,13 +1,13 @@
 footer {
     background-color: white;
-    padding: 6rem;
+    padding: 5rem;
 }
 
 .footer-content {
     display: grid;
     color: #010103;
-    grid-template-columns: 30fr 15fr 25fr 25fr;
-    gap: 6rem;
+    grid-template-columns: 25fr 15fr 25fr 25fr;
+    gap: 5rem;
     justify-content: center;
     text-align: left;
     color: black;
