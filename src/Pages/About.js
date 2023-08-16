@@ -3,6 +3,11 @@ import HeroPages from '../components/HeroPages'
 import Footer from '../components/Footer'
 import PlanTrip from '../components/PlanTrip'
 import '../styles/About.css'
+import AboutMain from '../assets/About/about-main_img.jpg'
+import Icon1 from '../assets/About/icon1.png'
+import Icon2 from '../assets/About/icon2.png'
+import Icon3 from '../assets/About/icon3.png'
+
 
 const About = () => {
     return (
@@ -11,7 +16,7 @@ const About = () => {
                 <HeroPages name="About" />
                 <div className="container">
                     <div className="about-main">
-                        <img src="" alt="car-rent-img" className='about-main__img' />
+                        <img src={AboutMain} alt="car-rent-img" className='about-main__img' />
                         <div className="about-main__text">
                             <h3>About Our Company</h3>
                             <h2>Your adventure begins as you start the engine. </h2>
@@ -20,21 +25,21 @@ const About = () => {
                             </p>
                             <div className="about-main__text__icons">
                                 <div className="about-main__text__icons__box">
-                                    <img src="" alt="car-icon" />
+                                    <img src={Icon1} alt="car-icon" />
                                     <span>
                                         <h4>15</h4>
                                         <p>Car Types</p>
                                     </span>
                                 </div>
                                 <div className="about-main__text__icons__box">
-                                    <img src="" alt="car-icon" />
+                                    <img src={Icon2} alt="car-icon" />
                                     <span>
                                         <h4>90+</h4>
                                         <p>Rental Distributers</p>
                                     </span>
                                 </div>
                                 <div className="about-main__text__icons__box">
-                                    <img src="" alt="car-icon" />
+                                    <img src={Icon3} alt="car-icon" />
                                     <span>
                                         <h4>60</h4>
                                         <p>Repair Shop</p>
