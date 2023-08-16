@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroPages from '../components/HeroPages'
 import Footer from '../components/Footer'
+import '../styles/Contact.css'
 
 
 const Contact = () => {
@@ -28,15 +29,16 @@ const Contact = () => {
                         <div className="contact-div__form">
                             <form>
                                 <label>
-                                    <input type="text" placeholder='E.g.:"Jane Doe"' />
+                                    Full Name <b style={{ color: "red" }}>*</b>
                                 </label>
+                                <input type="text" placeholder='E.g.:"Jane Doe"' />
                                 <label>
-                                    Email <b>*</b>
+                                    Email <b style={{ color: "red" }}>*</b>
                                 </label>
                                 <input type="email" placeholder="youremail@example.com"></input>
 
                                 <label>
-                                    Tell us about it <b>*</b>
+                                    Tell us about it <b style={{ color: "red" }}>*</b>
                                 </label>
                                 <textarea placeholder="Write Here.."></textarea>
                                 <button type='submit'>
