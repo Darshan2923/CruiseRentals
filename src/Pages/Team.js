@@ -8,7 +8,6 @@ import Person4 from '../assets/team_members/jim_kosovo.png'
 import Person5 from '../assets/team_members/4.png'
 import Person6 from '../assets/team_members/suniel_yadav.png'
 import HeroPages from '../components/HeroPages'
-import '../styles/HeroPages.css'
 
 
 const Team = () => {
