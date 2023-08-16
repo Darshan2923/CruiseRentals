@@ -2,6 +2,7 @@ import React from 'react'
 import HeroPages from '../components/HeroPages'
 import Footer from '../components/Footer'
 import PlanTrip from '../components/PlanTrip'
+import '../styles/HeroPages.css'
 
 const About = () => {
     return (

@@ -28,6 +28,7 @@
     height: 25rem;
     justify-content: center;
     color: #010103;
+    transition: .3s ease;
 }
 
 .hero-pages__text h3 {
@@ -50,4 +51,10 @@
 
 .hero-pages__text p a:hover {
     color: #4169e1;
+}
+
+@media(max-width:1050px) {
+    .hero-pages__text {
+        padding-left: 5vw;
+    }
 }
