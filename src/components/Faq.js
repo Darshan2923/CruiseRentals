@@ -64,6 +64,40 @@ const Faq = () => {
                                 </div>
                             </div>
                             {/* ... More question and answer pairs follow, same structure */}
+                            <div className="faq-box">
+                                <div
+                                    id='q2'
+                                    onClick={() => openQ('q2')}
+                                    className={`faq-box__questions ${getClassQuestion("q2")}`}
+                                >
+                                    <p>2.How can I locate the best automobile rental deals?</p>
+                                    <i className="fa-solid fa-angle-down"></i>
+                                </div>
+                                <div
+                                    id='q2'
+                                    onClick={() => openQ("q2")}
+                                    className={`faq-box__answer ${getClassAnswer('q2')}`}
+                                >
+                                    You may locate automobile rental bargains by browsing online and comparing costs from various rental businesses. Expedia, Kayak, and Travelocity are examples of websites that allow you to compare costs and browse available rental alternatives. Signing up for email newsletters and following rental vehicle businesses on social media is also suggested to stay up to date on any special bargains or promotions.
+                                </div>
+                            </div>
+                            <div className="faq-box">
+                                <div
+                                    id="q3"
+                                    onClick={() => openQ("q3")}
+                                    className={`faq-box__question ${getClassQuestion("q3")}`}
+                                >
+                                    <p>3. How did I come across such affordable rental vehicle rates?</p>
+                                    <i className="fa-solid fa-angle-down"></i>
+                                </div>
+                                <div
+                                    id="q3"
+                                    onClick={() => openQ("q3")}
+                                    className={`faq-box__answer ${getClassAnswer("q3")}`}
+                                >
+                                    Make a reservation in advance: Booking your rental car ahead of time may frequently result in reduced rates. Price comparisons from several companies: To compare pricing from several rental vehicle providers, use websites such as Kayak, Expedia, or Travelocity. Look for promotional codes and vouchers such as: Look for discount codes and discounts that you may use to reduce the cost of your rental. Renting from a place other than the airport can occasionally yield in reduced pricing.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
