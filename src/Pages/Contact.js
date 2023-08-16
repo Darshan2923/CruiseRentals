@@ -2,6 +2,7 @@ import React from 'react'
 import HeroPages from '../components/HeroPages'
 import Footer from '../components/Footer'
 import '../styles/Contact.css'
+import '../styles/Banner.css'
 
 
 const Contact = () => {

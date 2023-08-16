@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 12rem;
-    margin: 0 auto !important;
+    margin: 0 auto;
     color: black;
     padding: 6rem 1rem;
     background-image: url("/src/assets/banners/bg-contact.png");
@@ -21,7 +21,11 @@
 
     .contact-div__form {
         text-align: center;
-        margin: 0 30px;
+        margin: 0 100px;
+    }
+
+    .contact-div__form input {
+        padding: 0 30px 19px 79px;
     }
 }
 
@@ -85,7 +89,7 @@
 
 .contact-div__form input {
     background-color: #f2f2f2;
-    padding: 19px 30px 19px 60px;
+    padding: 19px 60px 19px 30px;
     font-size: 16px;
     border: none;
     width: 100%;
@@ -96,7 +100,7 @@
 .contact-div__form textarea {
     background-color: #f2f2f2;
     height: 10rem;
-    padding: 19px 30px 19px 60px;
+    padding: 19px 60px 19px 30px;
     font-size: 16px;
     border: none;
     outline: none;
