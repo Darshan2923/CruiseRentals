@@ -1,0 +1,68 @@
+.book-banner {
+    background-image: url("/src/assets/banners/book-banner.png");
+    display: flex;
+    height: 15rem;
+    margin-top: 2rem;
+    position: relative;
+    width: 100%;
+    font-family: Poppins;
+}
+
+.book-banner__overlay {
+    background-color: #2d2d2d;
+    height: 100%;
+    opacity: .89;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto !important;
+    padding: 0 2rem;
+}
+
+.text-content {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    gap: 3rem;
+    height: 15rem;
+    position: relative;
+    width: 100%;
+    z-index: 5;
+
+}
+
+.text-content h2 {
+    font-size: 1.8rem;
+}
+
+.text-content span {
+    align-items: center;
+    color: #4169e1;
+    display: flex;
+    font-size: 1.5rem;
+    gap: 1rem;
+    white-space: nowrap;
+    margin-top: 0;
+}
+
+@media (max-width: 850px) {
+    .text-content {
+        flex-direction: column;
+        gap: 0rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .text-content h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    .text-content span {
+        font-size: 1rem;
+    }
+}

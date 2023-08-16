@@ -43,7 +43,7 @@ const Contact = () => {
                                 </label>
                                 <textarea placeholder="Write Here.."></textarea>
                                 <button type='submit'>
-                                    <i className="fa-solid fa-envelope-open-text"></i>&nbsp; Send Message
+                                    <i className="fa-solid fa-envelope-open-text"></i>&nbsp; Send &nbsp; Message
                                 </button>
                             </form>
                         </div>
