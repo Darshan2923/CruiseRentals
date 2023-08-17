@@ -2,7 +2,9 @@ import React from 'react'
 
 const PickCar = () => {
     return (
-        <div>PickCar</div>
+        <div>
+
+        </div>
     )
 }
 

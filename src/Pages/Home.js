@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../components/Hero';
 import BookCar from "../components/BookCar";
 import PlanTrip from '../components/PlanTrip';
+import Banner from '../components/Banner'
 import PickCar from '../components/PickCar';
 import Why from '../components/Why';
 import Testimonials from '../components/Testimonials';
@@ -15,6 +16,7 @@ const Home = () => {
             <Hero />
             <BookCar />
             <PlanTrip />
+            <Banner />
             <PickCar />
             <Why />
             <Testimonials />
