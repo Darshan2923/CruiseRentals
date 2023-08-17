@@ -1,5 +1,6 @@
 // We're importing necessary tools from the 'react' package to build a React component.
 import React, { useState } from 'react';
+import '../styles/Faq.css'
 
 // We're defining a functional component called 'Faq'.
 const Faq = () => {
@@ -85,7 +86,7 @@ const Faq = () => {
                                 <div
                                     id="q3"
                                     onClick={() => openQ("q3")}
-                                    className={`faq-box__question ${getClassQuestion("q3")}`}
+                                    className={`faq-box__questions ${getClassQuestion("q3")}`}
                                 >
                                     <p>3. How did I come across such affordable rental vehicle rates?</p>
                                     <i className="fa-solid fa-angle-down"></i>
