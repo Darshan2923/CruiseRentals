@@ -4,9 +4,9 @@ import Footer from '../components/Footer'
 import PlanTrip from '../components/PlanTrip'
 import '../styles/About.css'
 import AboutMain from '../assets/About/about-main_img.jpg'
-import Icon1 from '../assets/About/icon1.png'
-import Icon2 from '../assets/About/icon2.png'
-import Icon3 from '../assets/About/icon3.png'
+import Icon1 from '../assets/About/icon1.jpg'
+import Icon2 from '../assets/About/icon2.jpg'
+import Icon3 from '../assets/About/icon3.jpg'
 
 
 const About = () => {
