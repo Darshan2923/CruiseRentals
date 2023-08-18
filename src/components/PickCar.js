@@ -30,7 +30,7 @@ const PickCar = () => {
                             {/* pick car */}
                             <div className="pick-box">
                                 <button
-                                    className={`${coloringButton("btn2")}`}
+                                    className={`${coloringButton("btn1")}`}
                                     onClick={() => {
                                         setActive("FirstCar");
                                         btnID("btn1");
@@ -39,7 +39,7 @@ const PickCar = () => {
                                     Mercedes-Benz GLK
                                 </button>
                                 <button
-                                    className={`${coloringButton("btn1")}`}
+                                    className={`${coloringButton("btn2")}`}
                                     onClick={() => {
                                         setActive("SecondCar");
                                         btnID("btn2");

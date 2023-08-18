@@ -33,12 +33,12 @@ footer {
 .footer-content__1 li:nth-child(1) {
     font-size: 1.6rem;
     margin-bottom: 1rem;
-    font-weight: 100;
+    font-weight: 400;
     transition: all .2s;
 }
 
 .footer-content__1 li:nth-child(1) span {
-    font-weight: 500;
+    font-weight: 600;
     color: #4169e1;
 }
 
@@ -47,7 +47,7 @@ footer {
     color: #808080;
     line-height: 1.5;
     margin-bottom: 1.5rem;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 .footer-content__1 li:nth-child(3) {
@@ -57,8 +57,8 @@ footer {
 }
 
 .footer-content__1 li:nth-child(4) {
-    font-size: 0.9rem;
-    font-weight: 100;
+    font-size: 0.8rem;
+    font-weight: 600;
     margin-bottom: 1rem;
 }
 
@@ -86,12 +86,12 @@ footer {
 .footer-content__2 li {
     font-size: 1rem;
     margin-bottom: 0.7rem;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .footer-content__2 li:nth-child(1) {
-    font-size: 1.6rem;
-    font-weight: 900;
+    font-size: 1.5rem;
+    font-weight: 700;
     text-transform: uppercase;
     font-family: Poppins;
     cursor: auto;

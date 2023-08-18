@@ -22,7 +22,7 @@ const Testimonials = () => {
                                     <i className="fa-solid fa-quote-right"></i>
                                 </span>
                                 <p>
-                                    We decided to rent a car from this website and the experience was absolutely fantastic! Booking the car was a breeze, and the rental rates were surprisingly affordable.
+                                    " We decided to rent a car from this website and the experience was absolutely fantastic! Booking the car was a breeze, and the rental rates were surprisingly affordable."
                                 </p>
                                 <div className="all-testimonials__box__name">
                                     <div className="all-testimonials__box__name__profile">
@@ -39,7 +39,7 @@ const Testimonials = () => {
                                     <i className="fa-solid fa-quote-right"></i>
                                 </span>
                                 <p>
-                                    The car was in excellent shape and truly enhanced our trip. I highly recommend this car rental website.
+                                    "The car was in excellent shape and truly enhanced our trip. I highly recommend this car rental website."
                                 </p>
                                 <div className="all-testimonials__box__name">
                                     <div className="all-testimonials__box__name__profile">
