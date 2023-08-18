@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { CarData } from './CarData';
 import CarBox from './CarBox';
+import '../styles/PickCar.css'
 
 const PickCar = () => {
 
@@ -22,7 +23,7 @@ const PickCar = () => {
                     <div className="pick-container">
                         <div className="pick-container__title">
                             <h3>Car Models</h3>
-                            <h2>Our Rental Collection</h2>
+                            <h2>Our Rental fleet</h2>
                             <p>Select from an array of fantastic vehicles for your upcoming adventure or business travel.</p>
                         </div>
                         <div className="pick-container__car-content">

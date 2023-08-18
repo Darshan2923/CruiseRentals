@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
+import '../styles/PickCar.css'
 
 const CarBox = ({ data, carId }) => {
     const [carLoad, setCarLoad] = useState(true);
     return (
         <>
-            {data[carId].map((car, id) => {
+            {data[carId].map((car, id) => ( /* Notice the angular bracket on left of this comment. If instead you write return statement nai toh vo explicitly return expect kargea if you write angular brackets than vo implicitly return expect karega  */
                 <div className="box-cars" key={id}>
                     {/* car */}
                     <div className="pick-car">
@@ -53,7 +54,7 @@ const CarBox = ({ data, carId }) => {
                         </a>
                     </div>
                 </div>
-            })}
+            ))}
         </>
     );
 }

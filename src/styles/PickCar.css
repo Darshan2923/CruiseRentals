@@ -1,0 +1,87 @@
+.pick-section {
+    padding: 5rem 0;
+    font-family: Poppins;
+}
+
+.pick-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.pick-container__title {
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    max-width: 32rem;
+    margin-bottom: 2rem;
+}
+
+.pick-container__title p {
+    font-size: 16px;
+    color: gray;
+    line-height: 1.5;
+}
+
+.pick-container__title h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.pick-container__title h2 {
+    font-size: 2.5rem;
+    margin: 0.5rem 0 1rem 0;
+}
+
+
+.pick-container__car-content {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+@media (max-width: 1050px) {
+    .pick-container__car-content {
+        flex-direction: column;
+        gap: 5rem;
+    }
+}
+
+.pick-box {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.pick-box button {
+    font-size: 1.2rem;
+    font-family: Poppins;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 2.5rem;
+    background-color: #e9e9e9;
+    transition: all 0.2s;
+    text-align: left;
+}
+
+.pick-box button:hover {
+    background-color: #4169e1;
+    color: white;
+}
+
+.pick-car {
+    width: 50rem;
+    position: relative;
+}
+
+@media (max-width: 700px) {
+    .pick-car {
+        width: 100%;
+    }
+}
+
+.pick-car img {
+    width: 100%;
+    margin-top: 6rem;
+}
