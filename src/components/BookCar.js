@@ -1,6 +1,47 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const BookCar = () => {
+    const [modal, setModal] = useState(false); //  class - active-modal
+
+    // booking car
+    const [carType, setCarType] = useState("");
+    const [pickUp, setPickUp] = useState("");
+    const [dropOff, setDropOff] = useState("");
+    const [pickTime, setPickTime] = useState("");
+    const [dropTime, setDropTime] = useState("");
+    const [carImg, setCarImg] = useState("");
+
+
+
+    // hide message
+    const hideMessage = () => {
+        const doneMsg = document.querySelector(".booking-done");
+        doneMsg.style.display = "none";
+    };
+
+
+    // open modal when all inputs are fulfilled
+    const openModal = (e) => {
+        e.preventDefault();
+        const errorMsg = document.querySelector(".error-message");
+        if (
+            pickUp === "" ||
+            dropOff === "" ||
+            pickTime === "" ||
+            dropTime === "" ||
+            carType === ""
+        ) {
+            errorMsg.style.display = "flex";
+        } else {
+            setModal(!modal);
+            const modalDiv = document.querySelector(".booking-modal");
+            modalDiv.scroll(0, 0);
+            errorMsg.style.display = "none";
+        }
+    };
+
+
+
 
 
 
@@ -76,7 +117,7 @@ const BookCar = () => {
                                     <label htmlFor='drop-off__dest'>
                                         <i className="fa-solid fa-location-dot"></i>&nbsp; DropOff{""} <b>*</b>
                                     </label>
-                                    <select value={pickUp} name="drop-off__dest" id="car-type__choose"
+                                    <select value={dropOff} name="drop-off__dest" id="car-type__choose"
                                         onChange={(e) => {
                                             setDropOff(e.target.value);
                                         }}>
@@ -101,7 +142,7 @@ const BookCar = () => {
                                     <input
                                         id="picktime"
                                         value={pickTime}
-                                        onChange={(e) => { setpickTime(e.target.value) }}
+                                        onChange={(e) => { setPickTime(e.target.value) }}
                                         type="date"
                                     ></input>
                                 </div>
@@ -115,7 +156,7 @@ const BookCar = () => {
                                     <input
                                         id="droptime"
                                         value={dropTime}
-                                        onChange={(e) => { setdropTime(e.target.value) }}
+                                        onChange={(e) => { setDropTime(e.target.value) }}
                                         type="date"
                                     ></input>
                                 </div>
