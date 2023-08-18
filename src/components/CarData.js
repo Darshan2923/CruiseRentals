@@ -6,20 +6,36 @@ import Golf6 from '../assets/Models/golf6.jpg'
 import Bmw20 from '../assets/Models/bmw320.jpg'
 
 export const CarData = [
+
     [
         {
-            name: "VW Golf 6",
-            price: "2199",
-            img: Golf6,
-            model: "Golf 6",
-            mark: "Volkswagen",
-            year: "2008",
+            name: "Mercedes-Benz GLK",
+            price: "2499",
+            img: Benz,
+            model: "Benz GLK",
+            mark: "Mercedes",
+            year: "2006",
             doors: "4/5",
             AC: "Yes",
-            Capacity: "4 + 1 driver",
+            Capacity: "6 + 1 driver",
             fuel: "Diesel",
         },
     ],
+    [
+        {
+            name: "Toyota Camry",
+            price: "2999",
+            img: Toyota,
+            model: "Camry",
+            mark: "Toyota",
+            year: "2006",
+            doors: "4/5",
+            AC: "Yes",
+            Capacity: "4 + 1 driver",
+            fuel: "Hybrid",
+        },
+    ],
+
     [
         {
             name: "Audi A1 S-Line",
@@ -36,20 +52,6 @@ export const CarData = [
     ],
     [
         {
-            name: "Toyota Camry",
-            price: "2999",
-            img: Toyota,
-            model: "Camry",
-            mark: "Toyota",
-            year: "2006",
-            doors: "4/5",
-            AC: "Yes",
-            Capacity: "6 + 1 driver",
-            fuel: "Hybrid",
-        },
-    ],
-    [
-        {
             name: "BMW 320 ModernLine",
             price: "2499",
             img: Bmw20,
@@ -58,24 +60,28 @@ export const CarData = [
             year: "2012",
             doors: "4/5",
             AC: "Yes",
-            Capacity: "5 + 1 driver",
+            Capacity: "4 + 1 driver",
             fuel: "Diesel",
         },
     ],
+
     [
         {
-            name: "Mercedes-Benz GLK",
-            price: "2499",
-            img: Benz,
-            model: "Benz GLK",
-            mark: "Mercedes",
-            year: "2006",
+            name: "VW Golf 6",
+            price: "2199",
+            img: Golf6,
+            model: "Golf 6",
+            mark: "Volkswagen",
+            year: "2008",
             doors: "4/5",
             AC: "Yes",
             Capacity: "4 + 1 driver",
             fuel: "Diesel",
         },
     ],
+
+
+
     [
         {
             name: "VW Passat CC",

@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { CarData } from './CarData';
 import CarBox from './CarBox';
-import '../styles/PickCar.css'
+import '../styles/PickCar.css';
 
 const PickCar = () => {
 
-    const [active, setActive] = useState("SecondCar");
+    const [active, setActive] = useState("FirstCar");
     const [colorBtn, setColorBtn] = useState("btn1");
 
     const btnID = (id) => {
@@ -30,23 +30,24 @@ const PickCar = () => {
                             {/* pick car */}
                             <div className="pick-box">
                                 <button
-                                    className={`${coloringButton("btn1")}`}
-                                    onClick={() => {
-                                        setActive("SecondCar");
-                                        btnID("btn1");
-                                    }}
-                                >
-                                    Toyota Camry
-                                </button>
-                                <button
                                     className={`${coloringButton("btn2")}`}
                                     onClick={() => {
                                         setActive("FirstCar");
-                                        btnID("btn2");
+                                        btnID("btn1");
                                     }}
                                 >
                                     Mercedes-Benz GLK
                                 </button>
+                                <button
+                                    className={`${coloringButton("btn1")}`}
+                                    onClick={() => {
+                                        setActive("SecondCar");
+                                        btnID("btn2");
+                                    }}
+                                >
+                                    Toyota Camry
+                                </button>
+
                                 <button
                                     className={`${coloringButton("btn3")}`}
                                     onClick={() => {
@@ -89,7 +90,7 @@ const PickCar = () => {
                             {active === "ThirdCar" && <CarBox data={CarData} carId={2} />}
                             {active === "FourthCar" && <CarBox data={CarData} carId={3} />}
                             {active === "FifthCar" && <CarBox data={CarData} carId={4} />}
-                            {active === "SixCar" && <CarBox data={CarData} carId={5} />}
+                            {active === "SixthCar" && <CarBox data={CarData} carId={5} />}
                         </div>
                     </div>
                 </div>
