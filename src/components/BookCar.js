@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import '../styles/BookCar.css'
 
 const BookCar = () => {
     const [modal, setModal] = useState(false); //  class - active-modal
@@ -93,7 +94,7 @@ const BookCar = () => {
                                 <div className="box-form__car-type">
                                     {/* Select car model */}
                                     <label htmlFor='pick-up__source'>
-                                        <i className="fa-solid fa-location-dot"></i>&nbsp; Pick Up{""} <b>*</b>
+                                        <i className="fa-solid fa-location-dot"></i>&nbsp; Pick-Up{""} <b>*</b>
                                     </label>
                                     <select value={pickUp} name='pick-up__source' id="car-type__choose"
                                         onChange={(e) => {
@@ -140,6 +141,7 @@ const BookCar = () => {
                                         Pick-up Date<b>*</b>
                                     </label>
                                     <input
+                                        name='picktime'
                                         id="picktime"
                                         value={pickTime}
                                         onChange={(e) => { setPickTime(e.target.value) }}
@@ -154,13 +156,14 @@ const BookCar = () => {
                                         Drop-off <b>*</b>
                                     </label>
                                     <input
+                                        name='droptime'
                                         id="droptime"
                                         value={dropTime}
                                         onChange={(e) => { setDropTime(e.target.value) }}
                                         type="date"
                                     ></input>
                                 </div>
-                                <button onClick={openModal} type="submit">
+                                <button className='book-car__btn' onClick={openModal} type="submit">
                                     Search
                                 </button>
                             </form>

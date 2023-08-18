@@ -1,0 +1,169 @@
+.book-section {
+    position: relative;
+    margin-top: 0;
+
+    background: linear-gradient(to bottom, gray 20%, white 80%);
+
+}
+
+.book-content {
+    margin: 0 auto !important;
+    margin-bottom: 0;
+    font-family: Poppins;
+}
+
+.book-content__box {
+    margin: 0 auto !important;
+    background-color: white;
+    width: 80%;
+    padding: 2rem 2.5rem 3rem 2.5rem;
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 10%);
+    height: auto;
+    position: relative;
+    z-index: 4;
+    color: white;
+    border-radius: 5px;
+    background-image: url("/src/assets/book-car/book-bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+@media (max-width: 400px) {
+    .book-content__box {
+        padding: 2rem 1.5rem 3rem 1.5rem;
+    }
+}
+
+.book-content__box h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.box-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 2rem;
+}
+
+.box-form b {
+    color: red;
+}
+
+@media (max-width: 1000px) {
+    .box-form {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 630px) {
+    .box-form {
+        grid-template-columns: 1fr;
+    }
+}
+
+.box-form__car-type {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-form__car-type label {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.box-form__car-type i {
+    color: #4169e1;
+}
+
+.box-form__car-type select {
+    font-size: 1rem;
+    color: #ababab;
+    font-family: Poppins;
+    border: 1px solid #ccd7e6;
+    border-radius: 3px;
+    font-weight: 400;
+    padding: 0.2rem 0.6rem;
+    outline: none;
+}
+
+
+.box-form__car-time {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.box-form__car-time input {
+    outline: none;
+    color: #878585;
+    padding-right: 3rem;
+    padding: 0.4rem 0.6rem;
+    border: 1px solid #ccd7e6;
+}
+
+.box-form__car-time label {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.box-form__car-time i {
+    color: #4169e1;
+}
+
+.box-form__car-time::webkit-datetime-edit {
+    padding: 1.3rem 1.3rem;
+}
+
+.box-form__car-time::webkit-calendar-picker-indicator {
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+
+.book-car__btn {
+    padding: 1rem 1rem;
+    height: fit-content;
+    align-self: self-end;
+    border: none;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    background-color: #4169e1;
+    box-shadow: 0 10px 15px 0 rgba(89, 48, 255, 0.35);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.book-car__btn:hover {
+    box-shadow: 0 10px 15px 0 #c3d1fc;
+    background-color: #3553ac;
+}
+
+.error-message {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 1rem 1.4rem;
+    margin-bottom: 1.8rem;
+    margin-top: -1rem;
+    border: 1px solid transparent;
+    border-radius: 0.8rem;
+    font-size: 16px;
+    font-weight: 500;
+
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.error-message i {
+    cursor: pointer;
+}
