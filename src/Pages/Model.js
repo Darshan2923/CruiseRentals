@@ -2,13 +2,14 @@ import React from 'react'
 import HeroPages from '../components/HeroPages'
 import '../styles/Banner.css'
 import Footer from '../components/Footer'
-import CarImg5 from '../assets/Models/benz-box.png'
-import CarImg3 from '../assets/Models/toyota-box.png'
-import CarImg1 from '../assets/Models/audi-box.png'
+import CarImg1 from '../assets/Models/benz-box.png'
+import CarImg2 from '../assets/Models/toyota-box.png'
+import CarImg3 from '../assets/Models/audi-box.png'
 import CarImg4 from '../assets/Models/bmw-box.png'
-import CarImg2 from '../assets/Models/golf6-box.png'
+import CarImg5 from '../assets/Models/golf6-box.png'
 import CarImg6 from '../assets/Models/passat-box.png'
 import { Link } from 'react-router-dom'
+import Models_Boxes from './Models_Boxes'
 
 const Models = () => {
     return (
@@ -17,6 +18,8 @@ const Models = () => {
                 <HeroPages name="Models" />
                 <div className="container">
                     <div className="models-div">
+                        {/* first box */}
+                        <Models_Boxes />
                         <div className="models-div__box">
                             <div className="models-div__box__img">
                                 <img src={CarImg1} alt="car-img" />
@@ -60,6 +63,10 @@ const Models = () => {
                             </div>
                         </div>
                         {/* second box */}
+                        {/* third box */}
+                        {/* fourth box */}
+                        {/* fifth box */}
+                        {/* sixth box */}
                     </div>
                 </div>
 
