@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Models_Boxes = (props) => {
   return (
@@ -19,7 +20,7 @@ const Models_Boxes = (props) => {
             </div>
             <div className="models-div__box__descr__name-price__price">
               <h4>{props.carPrice}</h4>
-              <p>{props.carPer}</p>
+              <p>per day</p>
             </div>
           </div>
           <div className="models-div__box__descr__name-price__details">
