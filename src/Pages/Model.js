@@ -8,8 +8,8 @@ import CarImg3 from '../assets/Models/audi-box.png'
 import CarImg4 from '../assets/Models/bmw-box.png'
 import CarImg5 from '../assets/Models/golf6-box.png'
 import CarImg6 from '../assets/Models/passat-box.png'
-import { Link } from 'react-router-dom'
 import Models_Boxes from './Models_Boxes'
+import '../styles/Models.css'
 
 const Models = () => {
     return (

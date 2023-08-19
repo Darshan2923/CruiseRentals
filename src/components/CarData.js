@@ -10,7 +10,7 @@ export const CarData = [
     [
         {
             name: "Mercedes-Benz GLK",
-            price: "2499",
+            price: "2999",
             img: Benz,
             model: "Benz GLK",
             mark: "Mercedes",
@@ -24,7 +24,7 @@ export const CarData = [
     [
         {
             name: "Toyota Camry",
-            price: "2999",
+            price: "2499",
             img: Toyota,
             model: "Camry",
             mark: "Toyota",
