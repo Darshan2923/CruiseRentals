@@ -75,7 +75,7 @@
 }
 
 .models-div__box__descr__name-price__name p {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-weight: 700;
 }
 
@@ -85,8 +85,8 @@
 }
 
 .models-div__box__descr__name-price__name i {
-    font-size: 1.4rem;
-    color: #4169e1;
+    font-size: 1.2rem;
+    color: #ffc933;
 }
 
 .models-div__box__descr__name-price {
@@ -96,7 +96,8 @@
 }
 
 .models-div__box__descr__name-price h4 {
-    font-size: 2.8rem;
+    font-size: 1.7rem;
+    margin-bottom: 0;
 }
 
 .models-div__box__descr__name-price p {
@@ -115,7 +116,7 @@
 }
 
 .models-div__box__descr__name-price__details span {
-    font-size: 1.8rem;
+    font-size: 1rem;
     font-weight: 500;
     color: #777777;
     text-align: left;
@@ -133,7 +134,7 @@
     box-shadow: 0 10px 15px 0 rgba(89, 48, 255, 0.35);
     transition: all 0.3s;
     border: 2px solid #4169e1;
-    font-size: 1.8rem;
+    font-size: 1rem;
     cursor: pointer;
 }
 
