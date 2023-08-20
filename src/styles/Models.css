@@ -54,9 +54,10 @@
 }
 
 .models-div__box__descr {
-    padding: 2rem 3rem;
+    padding: 1rem 1rem;
     display: flex;
     flex-direction: column;
+    margin-bottom: 0;
     color: black;
 }
 
@@ -71,7 +72,8 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    gap: 0.5rem;
+    gap: 0rem;
+    margin-bottom: 0;
 }
 
 .models-div__box__descr__name-price__name p {
@@ -81,7 +83,7 @@
 
 .models-div__box__descr__name-price__name span {
     display: flex;
-    gap: 0.4rem;
+    gap: 0rem;
 }
 
 .models-div__box__descr__name-price__name i {
@@ -91,7 +93,7 @@
 
 .models-div__box__descr__name-price {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: right;
 }
 
@@ -107,11 +109,11 @@
 .models-div__box__descr__name-price__details {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
-    column-gap: 7rem;
+    row-gap: 1rem;
+    column-gap: 2rem;
     margin-top: 2.5rem;
     margin: 2rem auto;
-    padding-bottom: 2.5rem;
+    padding-bottom: 1rem;
     border-bottom: 1px solid #3553ac;
 }
 
@@ -129,8 +131,8 @@
 
 .models-div__box__descr__name-price__btn {
     background-color: #4169e1;
-    padding: 1.8rem 3rem;
-    border-radius: 0.3rem;
+    padding: 1rem 3rem;
+    border-radius: 0.2rem;
     box-shadow: 0 10px 15px 0 rgba(89, 48, 255, 0.35);
     transition: all 0.3s;
     border: 2px solid #4169e1;
