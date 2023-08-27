@@ -8,7 +8,7 @@ import CarImg3 from '../assets/Models/audi-box.png'
 import CarImg4 from '../assets/Models/bmw-box.png'
 import CarImg5 from '../assets/Models/golf6-box.png'
 import CarImg6 from '../assets/Models/passat-box.png'
-import Models_Boxes from './Models_Boxes'
+import ModelsBoxes from './ModelBoxes';
 import '../styles/Models.css'
 
 const Models = () => {
@@ -19,17 +19,17 @@ const Models = () => {
                 <div className="container">
                     <div className="models-div">
                         {/* first box */}
-                        <Models_Boxes carImg={CarImg1} carName='Mercedes' carPrice="₹2999" carModel=" Benz GLK" carDoors="4/5" carCapacity="6 + 1 driver" carFuel="Diesel" />
+                        <ModelsBoxes carImg={CarImg1} carName='Mercedes' carPrice="₹2999" carModel=" Benz GLK" carDoors="4/5" carCapacity="6 + 1 driver" carFuel="Diesel" />
                         {/* second box */}
-                        <Models_Boxes carImg={CarImg2} carName='Toyota' carPrice="₹2499" carModel=" Camry" carDoors="4/5" carCapacity="4 + 1 driver" carFuel="Hybrid" />
+                        <ModelsBoxes carImg={CarImg2} carName='Toyota' carPrice="₹2499" carModel=" Camry" carDoors="4/5" carCapacity="4 + 1 driver" carFuel="Hybrid" />
                         {/* third box */}
-                        <Models_Boxes carImg={CarImg3} carName='Audi A1' carPrice="₹2499" carModel=" Audi" carDoors="4/5" carCapacity="4 + 1 driver" carFuel="Gasoline" />
+                        <ModelsBoxes carImg={CarImg3} carName='Audi A1' carPrice="₹2499" carModel=" Audi" carDoors="4/5" carCapacity="4 + 1 driver" carFuel="Gasoline" />
                         {/* fourth box */}
-                        <Models_Boxes carImg={CarImg4} carName='Bmw 320' carPrice="₹2499" carModel="320" carDoors="4/5" carCapacity="4 + 1 driver" carFuel="Diesel" />
+                        <ModelsBoxes carImg={CarImg4} carName='Bmw 320' carPrice="₹2499" carModel="320" carDoors="4/5" carCapacity="4 + 1 driver" carFuel="Diesel" />
                         {/* fifth box */}
-                        <Models_Boxes carImg={CarImg5} carName='VW Golf' carPrice="₹2199" carModel=" Golf 6" carDoors="4/5" carCapacity="4 + 1 driver" carFuel="Diesel" />
+                        <ModelsBoxes carImg={CarImg5} carName='VW Golf' carPrice="₹2199" carModel=" Golf 6" carDoors="4/5" carCapacity="4 + 1 driver" carFuel="Diesel" />
                         {/* sixth box */}
-                        <Models_Boxes carImg={CarImg6} carName='VW Passat' carPrice="₹1999" carModel="Passat CC" carDoors="4/5" carCapacity="6 + 1 driver" carFuel="Gasoline" />
+                        <ModelsBoxes carImg={CarImg6} carName='VW Passat' carPrice="₹1999" carModel="Passat CC" carDoors="4/5" carCapacity="6 + 1 driver" carFuel="Gasoline" />
                     </div>
                 </div>
 
