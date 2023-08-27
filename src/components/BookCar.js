@@ -186,7 +186,7 @@ const BookCar = () => {
                                         onChange={(e) => {
                                             setDropOff(e.target.value);
                                         }}>
-                                        <option>Select Pick Up Location</option>
+                                        <option>Select Drop Off Location</option>
                                         <option>Mumbai</option>
                                         <option>Delhi</option>
                                         <option>Hyderabad</option>
@@ -352,10 +352,11 @@ const BookCar = () => {
 
 
                             <span>
-                                <label>
+                                <label htmlFor='age'>
                                     Age <b>*</b>
                                 </label>
                                 <input
+                                    name='age'
                                     value={age}
                                     onChange={(e) => setAge(e.target.value)}
                                     type="number"
@@ -367,10 +368,11 @@ const BookCar = () => {
 
                         <div className="info-form__1col">
                             <span>
-                                <label>
+                                <label htmlFor='email'>
                                     Email <b>*</b>
                                 </label>
                                 <input
+                                    name='email'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type="email"
@@ -380,10 +382,11 @@ const BookCar = () => {
                             </span>
 
                             <span>
-                                <label>
+                                <label htmlFor='add'>
                                     Address <b>*</b>
                                 </label>
                                 <input
+                                    name='add'
                                     value={address}
                                     onChange={(e) => setAddress(e.target.value)}
                                     type="text"
@@ -395,10 +398,11 @@ const BookCar = () => {
 
                         <div className="info-form__2col">
                             <span>
-                                <label>
+                                <label htmlFor='city'>
                                     City <b>*</b>
                                 </label>
                                 <input
+                                    name='city'
                                     value={city}
                                     onChange={(e) => setCity(e.target.value)}
                                     type="text"
@@ -408,10 +412,11 @@ const BookCar = () => {
                             </span>
 
                             <span>
-                                <label>
+                                <label htmlFor='zip'>
                                     Zip Code <b>*</b>
                                 </label>
                                 <input
+                                    name='zip'
                                     value={zipcode}
                                     onChange={(e) => setZipCode(e.target.value)}
                                     type="text"

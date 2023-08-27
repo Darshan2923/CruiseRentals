@@ -503,7 +503,7 @@
 .info-form__1col {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 1rem;
     padding: 1rem 0;
 }
 
@@ -515,32 +515,71 @@
     }
 }
 
-.info-form__2col,
+.info-form__2col span,
 .info-form__1col span {
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
 }
 
-.info-form__2col,
+.info-form__2col label,
 .info-form__1col label {
     font-size: 16px;
     font-weight: 500;
     color: #777777;
 }
 
-.info-form__2col,
+.info-form__2col b,
 .info-form__1col b {
-    color: #4169e1;
+    color: red;
 }
 
-.info-form__2col,
+.info-form__2col input,
 .info-form__1col input {
-    padding: 14px 15px;
+    padding: 13px 15px;
     background-color: #dbdbdb;
     color: #555;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
     outline: none;
     border: none;
+}
+
+.error-modal {
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+.reserve-button {
+    background-color: #dbdbdb;
+    margin: 0 -3rem;
+    padding: 3rem;
+    text-align: right;
+}
+
+@media (max-width: 650px) {
+    .reserve-button {
+        text-align: center;
+    }
+}
+
+.reserve-button button {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 700;
+    background-color: #4169e1;
+    border: 1px solid yellow;
+    padding: 1.2rem 2rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.reserve-button button:hover {
+    background-color: #2a6817;
+}
+
+.dates-div {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
 }

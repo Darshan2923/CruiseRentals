@@ -67,6 +67,7 @@
 .download-text__btns img {
     width: 40%;
     cursor: pointer;
+    overflow-x: hidden;
 }
 
 @media(max-width:550px) {
