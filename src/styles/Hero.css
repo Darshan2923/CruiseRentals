@@ -5,6 +5,12 @@
     margin-bottom: 0;
 }
 
+@media(max-width:450px) {
+    .hero-section {
+        top: 5vh;
+    }
+}
+
 .hero-content {
     align-items: center;
     display: flex;
@@ -142,7 +148,7 @@
     }
 
     .hero-content__text__btns__book-ride {
-        padding: 1.8rem 8rem;
+        padding: 1.8rem 2rem;
     }
 }
 
