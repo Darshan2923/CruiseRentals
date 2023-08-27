@@ -20,8 +20,8 @@
 <h3 align='center'>Home Page 🏡</h3>
 
 <div align='center'>
-<img src='.png'/>
-![Uploading cruise_rental_ss.png…]()
+<img src='https://github.com/Darshan2923/CruiseRentals/assets/135990671/40595563-f0d3-4384-93f5-a1fdbbba359e.png'/>
+
 
 </div>
 
